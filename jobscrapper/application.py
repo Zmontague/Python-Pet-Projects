@@ -1,9 +1,7 @@
-from selenium import webdriver
+import time
+
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
-import os
-import time
-import gather_jobs
 
 # my job information to put into fields
 APPLICANT_INFO = {
